@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	background: #fff000;
+	padding-bottom: 25px;
+    height: 25px;
+}
+ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+	display: block;
+}
+
+ul li a {
+	text-decoration: none;
+	padding: 16px 20px;
+	color: #000000;
+	display: block;
+}
+ul li a:hover {
+	background: gray;
+}
+ul li ul.level2 {
+	background: red;
+	position: absolute;
+	width: 230px;
+	display: none;
+}
+ul.level1 li:hover ul.level2 {
+	display: block;
+}
+ul li ul li {
+	float: none;
+	line-height: 15px;
+	position: relative;
+	display: block;
+}
+.level3 {
+	background: green;
+	position: absolute;
+	width: 230px;
+	display: none;
+	left: 230px;
+	top: 0px;
+}
+ul li ul li:hover .level3 {
+	display: block;
+}
+.level3 li {
+	float: none;
+	line-height: 15px;
+}
