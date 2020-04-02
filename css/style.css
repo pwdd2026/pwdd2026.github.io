@@ -1,46 +1,72 @@
-.box {
-    width: 200px;
-    height: 100px;
-    background: #16ddb2;
-    transition: all 500ms;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
-.box:hover{
-    transform: rotate(45deg);
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
-.box2 {
-    width: 200px;
-    height: 100px;
-    background: #cf0000;
-    transition: all .5s;
+.portfolio-item img {
+    transition: all .4s;
 }
-.box2:hover {
-    transform:translateY(50px)
+.portfolio-item:hover img {
+    transform: scale(1.2,1.2);
 }
-.box3 {
-    width: 200px;
-    height: 100px;
-    background: #6b19b8;
-    transition: all .5s;
+.bg-overflow {
+    background: rgba(255, 0, 0, 0.7);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .4s;
 }
+.portfolio-item:hover .bg-overflow {
+    opacity: 1;
+}
+.top-content {
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.top-content h3 {
+    transition: all .4s;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid #fff;
+    line-height: 26px;
+    transform: translateX(200px);
+}
+.portfolio-item:hover .top-content h3 {
+    transform: translateX(0px);
+    transition-delay: .1s;
+}
+.top-content h4 {
+    line-height: 24px;
+    font-size: 18px;
 
-.box3:hover {
-    transform: scale(1.1,1.1);
+    transition: all .4s;
+    transform: translateX(200px);
 }
-.box4 {
-    width: 200px;
-    height: 100px;
-    background: rgb(224, 0, 176);
-    transition: all .5s ease; 
+.top-content a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
 }
-.box4:hover {
-    transform: scaleX(1.5);
+.portfolio-item:hover .top-content h4 {
+    transform: translateX(0px);
 }
-.box5 {
-    width: 200px;
-    height: 100px;
-    background: #08ddc1;
-    transition: all .5s;
+.bottom-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
 }
-.box5:hover {
-    transform: skew(20deg, 20deg);
+.bottom-icon a {
+    font-size: 24px;
+    color: #ffffff;
+    padding-left: 20px;
 }
