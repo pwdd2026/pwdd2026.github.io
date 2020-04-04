@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Raleway', sans-serif;
+}
 a, a:hover {
     text-decoration: none;
 }
@@ -153,6 +156,7 @@ a, a:hover {
     line-height: 24px;
     margin-top: 20px;
     letter-spacing: 1px;
+    opacity: .75;
 }
 
 /* End Service Section */
@@ -219,4 +223,302 @@ a, a:hover {
     color: #000;
     margin-top: 20px;
     line-height: 24px;
+    opacity: .6;
 }
+/* End Our Service Section */
+
+/* Start Courses Section */
+#courses {
+    padding: 100px 0;
+    font-family: 'Raleway', sans-serif;
+}
+#courses .courses-title h3 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #00bfa5;
+}
+#courses .courses-title p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #140000;
+    margin-top: 25px;
+}
+#courses .course-item img {
+    margin: 35px 0;
+}
+#courses .course-item .course-catgory {
+    overflow: hidden;
+}
+#courses .course-item .course-catgory .category-name a {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+#courses .course-item .course-catgory .category-name {
+    float: left;
+}
+#courses .course-item .course-catgory .category-name i {
+    margin-right: 10px;
+}
+#courses .course-item .course-catgory .price {
+    float: right;
+}
+#courses .course-item .course-catgory .price h5 {
+    color:#00bfa5;
+    font-size: 24px;
+    font-weight: 700;
+}
+#courses .course-item .course-catgory .price .rating {
+    margin-right: 0;
+    position: relative;
+    right: -7px;
+}
+#courses .course-item .course-catgory .price .rating i {
+    color: #ed8000;
+    font-size: 14px;
+    margin-right: -3px;
+}
+#courses .course-item .course-content {
+
+}
+#courses .course-item .course-content h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 25px;
+}
+#courses .course-item .course-content p {
+    font-size: 14px;
+    color: #000;
+    line-height: 28px;
+    opacity: .6;
+}
+#courses .course-item .course-content a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #00bfa5;
+    border-radius: 1px;
+    margin-top: 40px;
+}
+
+/* End Courses Section */
+
+/* Start Live Class Section */
+
+#live-class {
+    background: #00bfa5;
+    padding: 100px 0;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+#live-class .live-class-content {
+
+}
+#live-class .live-class-content h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+#live-class .live-class-content h4 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#live-class .live-class-content p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+    margin-bottom: 45px;
+}
+#live-class .live-class-content a {
+    color: #00bfa5;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+#live-class .class-video a.class-left i {
+    background: #ffffff;
+    color: #00bfa5;
+    padding: 10px;
+    position: absolute;
+    right: 37px;
+    bottom: -60px;
+
+}
+#live-class .class-video a.class-right i{
+    background: #ffffff;
+    color: #00bfa5;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: -60px;
+}
+/* End Live Class Section */
+
+/* Start Portal Section */
+
+#portal {
+    font-family: 'Raleway', sans-serif;
+    padding: 95px 0;
+}
+#portal .portal-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+#portal .portal-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00bfa5;
+    margin-bottom: 20px;
+}
+#portal .portal-title .underline {
+    width: 135px;
+    height: 2px;
+    background: #00bfa5;
+    margin:0 auto;
+}
+#portal .portal-news .portal-item img {
+    margin-bottom: 20px;
+}
+#portal .portal-news .portal-item span {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #212121;
+    opacity: .6;
+    margin-left: 30px;
+} 
+#portal .portal-news .portal-item p {
+    font-size: 16px;
+    color: #212121;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+#portal .portal-news .portal-item a {
+    font-size: 14px;
+    color: #a22631;
+    font-weight: 500;
+    margin-left: 30px;
+}
+#portal .view-all-news {
+    text-align: center;
+    margin-top: 75px;
+}
+#portal .view-all-news a {
+    background: #00bfa5;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 1px;
+}
+
+/* End Portal Section */
+
+/* Start Footer Section */
+#footer {
+    background: #00bfa5;
+    color: #ffffff;
+    padding-top: 100px;
+    padding: 70px;
+}
+#footer .newsletter h3 {
+    font-size: 16px;
+    line-height: 30px;
+}
+#footer .subscribe .form-inline {
+    float: right;
+}
+#footer .subscribe .form-inline input.email-input {
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    width: 360px;
+    height: 45px;
+    background: #00bfa5;
+}
+#footer .subscribe .form-inline input.email-input::placeholder {
+    color: #ffffff;
+    opacity: .6;
+    font-size: 12px;
+}
+#footer .subscribe .form-inline button.email-button {
+    border-radius: 0;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #00bfa5;;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 11px 21px;
+}
+#footer .social-icon {
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+}
+#footer .newsletter .social-icon a {
+    color: #fff;
+    margin-right: 20px;
+}
+#footer .address {
+    margin-top: 140px;
+}
+#footer .address address {
+    color: #e5e1e1;
+    font-size: 14px;
+    line-height: 30px;
+}
+#footer .address strong {
+    color: #ffffff;
+}
+#footer .address .quick-link h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+#footer .address .quick-link ul li {
+    list-style: none;
+    line-height: 30px;
+}
+#footer .address .quick-link ul li a {
+    color: #e5e5e5;
+    font-size: 14px;
+}
+#footer .address .quick-link ul li a:hover {
+    text-decoration: underline;
+}
+#footer .copyright {
+    border-top: 2px solid #fff;
+    margin-top: 50px;
+}
+#footer .copyright .footer-menu {
+    margin-top: 30px;
+}
+#footer .copyright .footer-menu ul {
+    float: left;
+}
+#footer .copyright .footer-menu ul li {
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+}
+#footer .copyright .footer-menu ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#footer .copyright .footer-menu ul li a i {
+    margin-right: 10px;
+}
+#footer .copyright .footer-menu p {
+    float: right;
+}
+
+/* End Footer Section */
