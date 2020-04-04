@@ -1,72 +1,222 @@
-body {
-    font-family: 'Open Sans', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
-.portfolio-item {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
-.portfolio-item img {
-    transition: all .4s;
-}
-.portfolio-item:hover img {
-    transform: scale(1.2,1.2);
-}
-.bg-overflow {
-    background: rgba(255, 0, 0, 0.7);
-    color: #fff;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: all .4s;
-}
-.portfolio-item:hover .bg-overflow {
-    opacity: 1;
-}
-.top-content {
-    max-width: 200px;
-    margin-top: 40px;
-    margin-left: 30px;
-}
-.top-content h3 {
-    transition: all .4s;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    padding-top: 5px;
-    border-bottom: 1px solid #fff;
-    line-height: 26px;
-    transform: translateX(200px);
-}
-.portfolio-item:hover .top-content h3 {
-    transform: translateX(0px);
-    transition-delay: .1s;
-}
-.top-content h4 {
-    line-height: 24px;
-    font-size: 18px;
-
-    transition: all .4s;
-    transform: translateX(200px);
-}
-.top-content a {
-    font-weight: 600;
+a, a:hover {
     text-decoration: none;
+}
+#header .top-menu {
+    color: #00bfa5;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+#header .top-menu ul {
+    margin-bottom: 0;
+}
+#header .top-menu ul.contact-number {
+    float: left;
+}
+#header .top-menu ul li {
+    list-style: none;
+    float: left;
+    padding: 15px 50px 15px 0;
+}
+#header .top-menu ul li:last-child {
+    padding-right: 0;
+}
+#header .top-menu ul li a {
+    color: #00bfa5;
+    padding-left: 10px;
+    font-weight: 500;
+}
+#header .top-menu ul.user-login {
+    float: right;
+}
+#header .main-menu {
+    background: #00bfa5;
     color: #fff;
+    overflow: hidden;
 }
-.portfolio-item:hover .top-content h4 {
-    transform: translateX(0px);
+#header .main-menu .logo {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
-.bottom-icon {
-    position: absolute;
-    right: 30px;
-    bottom: 20px;
+#header .main-menu .logo a {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    padding: 40px 0;
 }
-.bottom-icon a {
-    font-size: 24px;
+#header .main-menu ul.menu-item {
+    float: left;
+    margin-top: 44px;
+    margin-left: 280px;
+}
+#header .main-menu ul.menu-item li {
+    float: left;
+    list-style:none;
+}
+#header .main-menu ul.menu-item li a{
+    color: #fff;
+    padding: 13px 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#header .main-menu ul.menu-item li a.active{
+    border: 2px solid #fff;
+}
+#header .main-menu .search-box {
+    float: right;
+    margin-top: 45px;
+}
+/* End Header Section */
+
+/* Start Slider Section */
+#slider {
+    background: url(../img/slider-bg.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+#slider .slider-overlay {
+    background: rgba(255, 255, 255, 0.7);
+}
+#slider .slider-overlay h2 {
+    font-size: 55px;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #00bfa5;
+    margin-top: 180px;
+}
+#slider .slider-overlay p {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin-top: 80px;
+}
+#slider .slider-overlay a {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     color: #ffffff;
-    padding-left: 20px;
+    background: #00bfa5;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 15px 30px;
+    margin-top: 100px;
+    margin-bottom: 208px;
+}
+
+/* End Slider Section */
+
+/* Start Service Section */
+
+#service {
+    background: #00bfa5;
+    padding-top: 100px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+#service .service-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+#service .service-header h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+#service .service-header p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    font-weight: 400;
+}
+#service .service-body .service-item {
+    margin-bottom: 85px;
+}
+#service .service-body .item-icon {
+    float: left;
+    margin-right: 65px;
+}
+#service .service-body .item-details h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+#service .service-body .item-details p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* End Service Section */
+
+/* Start Our Service Section */
+
+#our-service {
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+#our-service .our-service-title {
+    margin-bottom: 80px;
+}
+#our-service .our-service-title h3 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #00bfa5;
+}
+#our-service .our-service-title p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #140000;
+    margin-top: 25px;
+}
+#our-service .our-serivce-item {
+    margin-bottom: 65px;
+}
+#our-service .our-serivce-item .our-service-icon {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+#our-service .our-serivce-item .our-service-icon img.icon {
+    border: 5px solid #00bfa5;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    transition: all .5s;
+}
+#our-service .our-serivce-item .our-service-icon img.img-h {
+    position: absolute;
+    padding: 20px;
+    border: 5px solid #00bfa5;
+    border-radius: 50%;
+    visibility: hidden;
+}
+#our-service .our-serivce-item:hover .our-service-icon img {
+    background: #00bfa5;
+}
+#our-service .our-serivce-item:hover .our-service-icon img.img-h {
+    visibility: visible;
+}
+#our-service .our-serivce-item .our-service-content {
+    margin-left: 180px;
+}
+#our-service .our-serivce-item .our-service-content h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+#our-service .our-serivce-item .our-service-content p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+    line-height: 24px;
 }
